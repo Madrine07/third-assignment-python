@@ -24,14 +24,18 @@ student_names.insert(4, 'Masha')
 print(student_names)
 
 # c)
+student_names[2] = 'Phionah Aladina'
+print(student_names)
+
+# d)
 length = len(student_names)
 print(f"The length of this list is {length} names.")
 
-# d)
+# e)
 for student_name in student_names:
     print(student_name)
     
-# e)
+# f)
     sum = 0
     student_marks = [80, 56, 78, 90]
     for mark in student_marks:
